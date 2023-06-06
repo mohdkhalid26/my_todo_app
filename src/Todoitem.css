@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css2?family=Titan+One&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+::placeholder {
+  color: black;
+}
+
+div,
+h1,
+p,
+ul,
+button,
+input,
+body {
+  background: local;
+}
+.maindiv {
+  background-image: url("E:\REACT\mytodoapp\src\img1.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  max-height: auto;
+}
+p {
+  text-align: center;
+  min-width: 544px;
+  max-width: 54vw;
+  font-family: monospace;
+  font-size: x-large;
+  background-color: rgba(0, 0, 0, 0.544);
+  word-wrap: break-word;
+  word-break: normal;
+  color: whitesmoke;
+  padding: 7px;
+
+  border-radius: 27px;
+}
+pre {
+  white-space: break-spaces;
+}
+.tododiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.listdiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.listdiv2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 7px;
+}
+.yellowbtn {
+  background-image: url("E:\REACT\mytodoapp\src\update.png");
+  background-repeat: no-repeat;
+
+  background-position: bottom;
+  background-color: rgba(255, 255, 0, 0.544);
+}
+.greenbtn {
+  background-position: bottom;
+  background-image: url("E:\REACT\mytodoapp\src\add.png");
+  background-repeat: no-repeat;
+
+  background-color: rgba(0, 128, 0, 0.544);
+}
+.bluebtn {
+  background-image: url("E:\REACT\mytodoapp\src\edit.png");
+  background-repeat: no-repeat;
+
+  background-position: bottom;
+  background-color: rgba(0, 0, 255, 0.544);
+}
+.redbtn {
+  background-image: url("E:\REACT\mytodoapp\src\deleteall.png");
+  background-repeat: no-repeat;
+
+  background-position: bottom;
+  background-color: rgba(255, 0, 0, 0.544);
+}
+.redbtn2 {
+  background-image: url("E:\REACT\mytodoapp\src\removeall.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-color: rgba(255, 0, 0, 0.544);
+}
+button {
+  margin: 4px;
+  border: none;
+  padding: 14px 14px 27px 14px;
+  border-radius: 54px;
+  background-size: 27px;
+  cursor: pointer;
+  font-size: 10px;
+}
+h1 {
+  font-weight: normal;
+  font-family: "Titan One", cursive;
+  margin: 7px;
+  font-size: 54px;
+}
+input {
+  font-size: large;
+  padding: 14px;
+  border: none;
+  border-bottom: 2px solid black;
+  /* height: 27px; */
+  width: 544px;
+  margin: 7px;
+}
+
+@media screen and (max-width: 720px) {
+  input {
+    width: 272px;
+    font-size: medium;
+    padding: 7px;
+    margin: 4px;
+  }
+  p {
+    text-align: center;
+    min-width: 14px;
+    max-width: 54vw;
+    word-wrap: break-word;
+    word-break: normal;
+    font-size: medium;
+    font-family: "Courier New", Courier, monospace;
+    color: whitesmoke;
+  }
+
+  pre {
+    white-space: break-spaces;
+  }
+
+  button {
+    background-size: 21px;
+    margin: 2px;
+    border: none;
+    padding: 7px 7px 18px 7px;
+    border-radius: 54px;
+    cursor: pointer;
+    font-size: 10px;
+  }
+  .maindiv {
+    background-image: url("E:\REACT\mytodoapp\src\img2.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 100vw;
+    max-width: auto;
+    min-height: 100vh;
+    max-height: auto;
+  }
+  .maindiv,
+  .tododiv,
+  .listdiv,
+  .listdiv2 {
+    justify-content: flex-start;
+  }
+  h1 {
+    font-size: xx-large;
+    font-weight: normal;
+    margin-top: 54px;
+    margin-bottom: 27px;
+  }
+}
