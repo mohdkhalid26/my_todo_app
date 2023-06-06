@@ -67,7 +67,7 @@ pre {
   margin: 7px;
 }
 .yellowbtn {
-  background-image: url("E:\REACT\mytodoapp\src\update.png");
+  background-image: url("update.png");
   background-repeat: no-repeat;
 
   background-position: bottom;
@@ -75,27 +75,27 @@ pre {
 }
 .greenbtn {
   background-position: bottom;
-  background-image: url("E:\REACT\mytodoapp\src\add.png");
+  background-image: url("add.png");
   background-repeat: no-repeat;
 
   background-color: rgba(0, 128, 0, 0.544);
 }
 .bluebtn {
-  background-image: url("E:\REACT\mytodoapp\src\edit.png");
+  background-image: url("edit.png");
   background-repeat: no-repeat;
 
   background-position: bottom;
   background-color: rgba(0, 0, 255, 0.544);
 }
 .redbtn {
-  background-image: url("E:\REACT\mytodoapp\src\deleteall.png");
+  background-image: url("deleteall.png");
   background-repeat: no-repeat;
 
   background-position: bottom;
   background-color: rgba(255, 0, 0, 0.544);
 }
 .redbtn2 {
-  background-image: url("E:\REACT\mytodoapp\src\removeall.png");
+  background-image: url("removeall.png");
   background-repeat: no-repeat;
   background-position: bottom;
   background-color: rgba(255, 0, 0, 0.544);
