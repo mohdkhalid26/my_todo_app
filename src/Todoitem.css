@@ -19,7 +19,7 @@ body {
   background: local;
 }
 .maindiv {
-  background-image: url("E:\REACT\mytodoapp\src\img1.jpg");
+  background-image: url("img1.jpg");
   background-size: cover;
   background-attachment: fixed;
   margin: 0;
@@ -157,7 +157,7 @@ input {
     font-size: 10px;
   }
   .maindiv {
-    background-image: url("E:\REACT\mytodoapp\src\img2.jpg");
+    background-image: url("img2.jpg");
     background-size: cover;
     background-attachment: fixed;
     margin: 0;
