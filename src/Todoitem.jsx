@@ -38,7 +38,7 @@ function Todoitem() {
     }
     setEdititem(false);
     setTodoitem("");
-    localStorage.setItem("my todos item", JSON.stringify(todos));
+    localStorage.setItem("mytodositem", JSON.stringify(todos));
   }
 
   function deletetodo(index) {
