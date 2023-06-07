@@ -3,7 +3,7 @@ import "./Todoitem.css";
 
 function Todoitem() {
   function getdatafromstorage() {
-    const todolist = localStorage.getItem("my todos item");
+    const todolist = localStorage.getItem("mytodositem");
     if (todolist) {
       return JSON.parse(todolist);
     } else {
