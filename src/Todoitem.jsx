@@ -3,7 +3,7 @@ import "./Todoitem.css";
 
 function Todoitem() {
   function getdatafromstorage() {
-    const todolist = localStorage.getItem("mytodositem");
+    const todolist = localStorage.getItem("myTodoItem");
     if (todolist) {
       return JSON.parse(todolist);
     } else {
@@ -38,7 +38,7 @@ function Todoitem() {
     }
     setEdititem(false);
     setTodoitem("");
-    localStorage.setItem("mytodositem", JSON.stringify(todos));
+    localStorage.setItem("myTodoItem", JSON.stringify(todos));
   }
 
   function deletetodo(index) {
@@ -49,7 +49,7 @@ function Todoitem() {
   }
 
   useEffect(() => {
-    localStorage.setItem("mytodositem", JSON.stringify(todos));
+    localStorage.setItem("myTodoItem", JSON.stringify(todos));
   }, [todos]);
 
   function deleteall() {
