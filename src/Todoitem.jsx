@@ -49,7 +49,7 @@ function Todoitem() {
   }
 
   useEffect(() => {
-    localStorage.setItem("my todos item", JSON.stringify(todos));
+    localStorage.setItem("mytodositem", JSON.stringify(todos));
   }, [todos]);
 
   function deleteall() {
